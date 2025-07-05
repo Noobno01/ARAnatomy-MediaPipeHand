@@ -1,0 +1,1167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7312430303626934261
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6616599516527327193}
+  m_Layer: 0
+  m_Name: skeleton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6616599516527327193
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7312430303626934261}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1007.79364, y: 0.1502885, z: -807.36694}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3253967446588885614}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1908743001866509476
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6616599516527327193}
+    m_Modifications:
+    - target: {fileID: 15007894532908485, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 119440904250385558, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: descriptionText
+      value: The costal cartilage of the first rib connects the first rib to the
+        manubrium of the sternum. It's a short, thick piece of cartilage that forms
+        a synchondrosis joint with the manubrium, meaning it's directly connected
+        without a joint cavity. This joint, along with the first rib, moves as a
+        single unit, contributing to the stability of the upper chest
+      objectReference: {fileID: 0}
+    - target: {fileID: 141165602585530313, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 149498158488052759, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 150728460319241840, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 167580453335726964, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198099813335982341, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 238975263792993624, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 277472488424588149, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 281050641371125351, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 325063864723194901, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 349514777495518418, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: descriptionText
+      value: 'The proximal phalanx of the third toe is the bone located at the base
+        of the third toe, closest to the foot. It''s one of the fourteen phalanges
+        (toe bones) and is classified as a long bone. This bone connects to the metatarsal
+        at the base and the middle phalanx at the distal end. It plays a crucial
+        role in toe movement and weight-bearing. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 351192947336763318, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 356947429793244295, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 418429308209543775, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 435613257513062881, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: descriptionText
+      value: 'The distal phalanx of the first (great) toe is the bone located at
+        the very tip of the big toe, beneath the toenail. It''s the smallest bone
+        in the toe and supports the nail. It''s also known as the ungual phalanx. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 473835781046140233, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 473859649106695858, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 506606587147580281, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 545204098759298836, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 560304291332958690, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 609784472750248513, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 662278416411885024, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 695033237213466722, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 855980785206225613, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 932749673931973859, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 943803968007009429, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 949664194546526352, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 995158575962985670, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1018473164327556489, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: descriptionText
+      value: 'The distal phalanx of the second toe is the bone at the very end of
+        the second toe, furthest from the ankle. It''s the smallest of the three
+        phalanges (bones) in that toe, located distal to the middle phalanx. This
+        bone supports the toenail and the end of the toe. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148529748919241215, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168011003613017246, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1212243358547377724, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1242811081252589809, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250302735935907238, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1313282298504000498, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1313397421200794109, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1438360191625027670, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1456108038473357646, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: descriptionText
+      value: 'The proximal phalanx of the second toe is the bone closest to the metatarsal
+        (foot bone) that connects to the middle phalanx (second bone) of the second
+        toe. It''s a tubular bone with a base, a shaft (diaphysis), and a head. The
+        base articulates with the metatarsal, and the head articulates with the middle
+        phalanx. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1464441946158824330, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471363274303309759, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1601822844547594551, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1611782695161143687, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1617033457592529477, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: descriptionText
+      value: "The middle phalanx of the fifth toe is the middle bone in the little
+        toe (also called the pinky toe) of the foot. It is one of the three phalanges
+        (the others being proximal and distal) that make up each toe, except for
+        the big toe, which has only two. \r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623468322624988365, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1667758864854068217, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1703549088020953315, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: descriptionText
+      value: 'The middle phalanx of the third toe is one of the bones that make up
+        the middle part of the third toe, located between the proximal and distal
+        phalanges. It''s a long bone, meaning it has a shaft and two articular surfaces
+        (ends). It''s part of the fourteen phalangeal bones in the foot. The big
+        toe (hallux) does not have a middle phalanx. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1791284503823678367, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1816341042189026140, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1847432060469426555, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1851285234712480991, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913215176166394457, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1914161773094194083, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1923791392152137135, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1966359150963771488, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1967561349719035476, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979986345902885316, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1998599682851829690, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2052180003706035011, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055919242497478030, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151980721133434096, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2246160219229688888, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: descriptionText
+      value: 'The "proximal phalanx of the first finger of the foot" refers to the
+        bone closest to the main body of the foot in the big toe (also known as the
+        hallux). It''s the first bone in the series of bones that make up the big
+        toe. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2275276384133272548, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279995255995842738, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2309702719972752467, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2321384726924841655, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2339852012012560353, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2378487684527046172, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: descriptionText
+      value: 'The distal phalanx of the fifth toe is the small bone at the very end
+        of the little toe, located furthest from the ankle. It''s the smallest of
+        the distal phalanges in the foot and supports the toenail. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2408249872967854190, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2499375015218869699, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2535397744563289212, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2537455147757475453, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2561122372908478485, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2653090146784793543, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2711170172218447941, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2842772098003352932, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2864017302499752075, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2979307941286182068, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3058491546983447246, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3206512846787628299, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3259720146081458123, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3263007606163606368, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3375120467865885300, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3500630271692805004, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: descriptionText
+      value: 'The middle phalanx of the fourth toe is the middle bone in the fourth
+        toe (also known as the "ring toe") of the foot. It''s one of the fourteen
+        phalangeal bones in the foot. This bone connects to the proximal phalanx
+        at the proximal interphalangeal (PIP) joint and to the distal phalanx at
+        the distal interphalangeal (DIP) joint. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3541615120541130163, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551099601635331426, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: descriptionText
+      value: 'The proximal phalanx of the fourth toe (also known as the ring toe)
+        is the bone closest to the metatarsal bone that connects to the middle phalanx
+        of the fourth toe. It is the first bone in the toe, closest to the foot,
+        and forms part of the metatarsophalangeal joint where it connects to the
+        fourth metatarsal. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3622697960484693670, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3706841841302671024, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3767111590092893898, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3868519013964783527, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3889882920604774692, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3917947329324232461, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3946305947454171750, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: descriptionText
+      value: The costal cartilage of the first rib connects the first rib to the
+        manubrium of the sternum. It's a short, thick piece of cartilage that forms
+        a synchondrosis joint with the manubrium, meaning it's directly connected
+        without a joint cavity. This joint, along with the first rib, moves as a
+        single unit, contributing to the stability of the upper chest
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987195861076121290, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 99.999954
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987195861076121290, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987195861076121290, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 99.999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987195861076121290, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.1038208
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987195861076121290, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0132160485
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987195861076121290, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1303711
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987195861076121290, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987195861076121290, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987195861076121290, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987195861076121290, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987195861076121290, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987195861076121290, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987195861076121290, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4129243771822879797, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4150571638962608135, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4204135389793306297, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4288418139011232265, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4291691673853215946, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4363065850680125557, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4386263533123799316, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4444335299487705783, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4452074331085046611, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4499691253406889451, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4505978365848947294, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: descriptionText
+      value: 'The 3D metacarpal bones, also known as metacarpals, are a set of five
+        long bones in the palm of the hand, connecting the wrist (carpus) to the
+        finger bones (phalanges). They are classified as long bones due to their
+        structure, which includes a shaft, a distal head, and a proximal base. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4556963327939561485, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4563298411988028154, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566682840882108772, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4584469364117935757, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4617134725289491785, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4647846143885657956, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4760432257543473111, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: descriptionText
+      value: 'The fifth rib''s costal cartilage is the section of cartilage that
+        connects the anterior (front) end of the fifth rib to the sternum (breastbone).
+        This cartilage is part of the "true ribs" (1-7), meaning it directly connects
+        to the sternum. The costal cartilage provides flexibility to the ribcage,
+        allowing for chest expansion during breathing. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765328386595774060, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984081690074542754, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131889170024297214, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131922496170893261, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5157997327034150066, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: descriptionText
+      value: 'The distal phalanx of the fourth toe (also known as the ring toe) is
+        the bone at the tip of the fourth toe in the foot, located distal to the
+        middle phalanx. It''s one of the five distal phalanges in the foot, each
+        forming the distal segments of the toes. The distal phalanx of the fourth
+        toe is a small, flat bone that tapers towards its distal end and is expanded
+        at the distal extremity to support the toenail. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5268244098217507568, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5344599489055310494, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5483820072887567326, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: descriptionText
+      value: 'The middle phalanx of the second toe is one of the bones in the foot,
+        specifically in the second toe. It''s located between the proximal and distal
+        phalanges and is a long bone that contributes to the toe''s structure and
+        movement. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5530180656431040443, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5677652789992261516, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686016247543951812, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5690824539261648189, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5716563250454920831, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5768935501893754803, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5809204906286670509, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5891573146493958866, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6068623023824316698, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: descriptionText
+      value: 'The distal phalanx of the third toe is the bone at the very tip of
+        the third toe, located distally to the middle phalanx. It''s one of the 14
+        phalanges in the foot and is considered a long bone. The distal phalanx has
+        a base, a shaft, and a distal end (tuft). It articulates with the middle
+        phalanx at the distal interphalangeal joint (DIP joint). '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6070638750641599033, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6105911949924343899, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6260626968995754566, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6414056896903711724, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6530876124596497125, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6543862426656490216, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6666010510863360950, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6953749458853131964, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7013214410516018945, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7068065719117985466, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7119579442597859309, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7199434581431219984, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: descriptionText
+      value: 'The fourth rib''s costal cartilage is a strip of hyaline cartilage
+        that connects the bony rib to the sternum, allowing for flexibility in the
+        rib cage. The fourth rib is considered a "true rib" as it has a direct cartilaginous
+        connection to the sternum. This connection is called the costochondral joint. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7228961478912896954, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: descriptionText
+      value: 'The fourth rib''s costal cartilage is a strip of hyaline cartilage
+        that connects the bony rib to the sternum, allowing for flexibility in the
+        rib cage. The fourth rib is considered a "true rib" as it has a direct cartilaginous
+        connection to the sternum. This connection is called the costochondral joint. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7238206360353624661, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7244853004167429547, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7297471238223370338, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7368255863389522526, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7383148944932274694, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7436261320188513280, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: descriptionText
+      value: 'The proximal phalanx of the fifth toe (also known as the little toe)
+        is the bone closest to the metatarsal bone (the long bone in the foot) in
+        that toe. It''s the first bone in the fifth toe, connecting to the metatarsal
+        at the metatarsophalangeal joint. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7458575839869957822, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7501509555307845543, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7599788165609120470, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7631556486235452447, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7637806642073380804, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7806457724152985574, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859147011858045455, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7901998921993421050, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: descriptionText
+      value: 'The costal cartilage of the third rib connects the bony portion of
+        the third rib to the sternum (breastbone). It is part of the thoracic cage,
+        which protects the heart and lungs. This cartilage allows for flexibility
+        and movement of the ribcage, particularly during breathing. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7927866016422848085, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7930372370934039460, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_Name
+      value: SkeletalSystem30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992815176210600823, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8014262608697649612, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8082628991152537851, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087850552404428057, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8148249439568686319, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164223381370389929, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8174672023276864017, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8202385476803704471, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8215658588084844344, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8236107690458579819, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8301400061645669932, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: descriptionText
+      value: 'The costal cartilage of the third rib connects the bony portion of
+        the third rib to the sternum (breastbone). It is part of the thoracic cage,
+        which protects the heart and lungs. This cartilage allows for flexibility
+        and movement of the ribcage, particularly during breathing. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379438145163676608, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379901840906032029, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8401427135156054859, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8420967912433495153, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: descriptionText
+      value: 'The fifth rib''s costal cartilage is the section of cartilage that
+        connects the anterior (front) end of the fifth rib to the sternum (breastbone).
+        This cartilage is part of the "true ribs" (1-7), meaning it directly connects
+        to the sternum. The costal cartilage provides flexibility to the ribcage,
+        allowing for chest expansion during breathing. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8457545823230648821, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8463367480137093562, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8464836668276911361, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483878878346769957, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8511579847803109678, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8646147306531509514, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692408809759965786, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8733417848609643722, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8744762257406882883, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8774305372827936060, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8790381972346448426, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8792170540041036925, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8833926459073047933, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842144770573439632, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8845597798755861330, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8862047625374740024, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8888751619171116648, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935606209724484893, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973653649687291250, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9027243540962439259, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070296822820904562, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9133791897965787761, guid: ca7db2feea83ac74880901bb04fd15df,
+        type: 3}
+      propertyPath: m_PermittedDisplacementAxes
+      value: -1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ca7db2feea83ac74880901bb04fd15df, type: 3}
+--- !u!4 &3253967446588885614 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3987195861076121290, guid: ca7db2feea83ac74880901bb04fd15df,
+    type: 3}
+  m_PrefabInstance: {fileID: 1908743001866509476}
+  m_PrefabAsset: {fileID: 0}

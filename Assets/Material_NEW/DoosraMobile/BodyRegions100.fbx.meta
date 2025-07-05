@@ -1,0 +1,2044 @@
+fileFormatVersion: 2
+guid: c1247ce5ebb83954992ebf26ed7f9017
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black
+    second: {fileID: 2100000, guid: 243797a682c80f843a23de4e613cfcca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ligament
+    second: {fileID: 2100000, guid: 9f935ba8349dafb44b45dc6a03168eaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nail
+    second: {fileID: 2100000, guid: fbc5ccdad0819d14989dfebc82013ead, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skin
+    second: {fileID: 2100000, guid: bb2009c535a319b44b3a8c5c7f89ba80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skin-in
+    second: {fileID: 2100000, guid: 2edb2f66a86ea3243a517afae4a5f370, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 2
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: BodyRegions100(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Parts of human body
+      parentName: BodyRegions100(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Upper limb.g
+      parentName: Parts of human body
+      position: {x: -0.00337393, y: 0.00048524092, z: -0.011686297}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 5, y: 5.000001, z: 5.0000005}
+    - name: Upper limb-line
+      parentName: Upper limb.g
+      position: {x: -7.4505804e-11, y: -7.580973e-10, z: -9.3132255e-12}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Regions of head.g
+      parentName: BodyRegions100(Clone)
+      position: {x: -0.0020436852, y: -0.00016592247, z: -0.016155906}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 5.0000005, y: 4.9999995, z: 4.9999995}
+    - name: Regions of head-line
+      parentName: Regions of head.g
+      position: {x: 0, y: -0.0000000014856575, z: 9.3132255e-12}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Regions of epicranium.g
+      parentName: Regions of head.g
+      position: {x: 0.00006650362, y: 0.00006828218, z: 0.00006299864}
+      rotation: {x: -1.3322678e-14, y: -0, z: 0, w: 1}
+      scale: {x: 0.8, y: 0.79999995, z: 0.79999995}
+    - name: Regions of epicranium-line
+      parentName: Regions of epicranium.g
+      position: {x: 0.00022747292, y: 0.00010976701, z: 1.16415315e-11}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.25, y: 0.25000006, z: 0.25000006}
+    - name: Frontal region.r
+      parentName: Regions of epicranium.g
+      position: {x: 0.0003366689, y: -0.000029937899, z: -0.00020674423}
+      rotation: {x: -0.000000014280889, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.25000006, z: 0.25000006}
+    - name: Eyebrow.r
+      parentName: Regions of epicranium.g
+      position: {x: 0.00035292693, y: -0.000082960694, z: -0.00025864024}
+      rotation: {x: -0.000000014280889, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.25000006, z: 0.25000006}
+    - name: Frontal region.l
+      parentName: Regions of epicranium.g
+      position: {x: 0.0005189145, y: -0.000029937899, z: -0.00020674423}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.25000006, z: -0.25000006}
+    - name: Eyebrow.l
+      parentName: Regions of epicranium.g
+      position: {x: 0.00050265645, y: -0.000082960694, z: -0.00025864024}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.25000006, z: -0.25000006}
+    - name: Mastoid region.r
+      parentName: Regions of epicranium.g
+      position: {x: 0.00026089564, y: -0.00017149092, z: 0.00006123962}
+      rotation: {x: -0.000000014280889, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.25000006, z: 0.25000006}
+    - name: Occipital region.r
+      parentName: Regions of epicranium.g
+      position: {x: 0.00034058242, y: -0.00015463772, z: 0.00016309593}
+      rotation: {x: -0.000000014280889, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.25000006, z: 0.25000006}
+    - name: Parietal region.r
+      parentName: Regions of epicranium.g
+      position: {x: 0.0003240578, y: 0.000050246403, z: 0.00005773743}
+      rotation: {x: -0.000000014280889, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.25000006, z: 0.25000006}
+    - name: Temporal region.r
+      parentName: Regions of epicranium.g
+      position: {x: 0.00024303808, y: -0.00008456051, z: -0.00004762529}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.25, y: 0.25000006, z: 0.25000006}
+    - name: Mastoid region.l
+      parentName: Regions of epicranium.g
+      position: {x: 0.00059468776, y: -0.00017149092, z: 0.00006123962}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.25000006, z: -0.25000006}
+    - name: Occipital region.l
+      parentName: Regions of epicranium.g
+      position: {x: 0.00051500095, y: -0.00015463772, z: 0.00016309593}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.25000006, z: -0.25000006}
+    - name: Parietal region.l
+      parentName: Regions of epicranium.g
+      position: {x: 0.0005315256, y: 0.000050246403, z: 0.00005773743}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.25000006, z: -0.25000006}
+    - name: Temporal region.l
+      parentName: Regions of epicranium.g
+      position: {x: 0.0006125453, y: -0.00008456051, z: -0.00004762529}
+      rotation: {x: -0.7071067, y: -0, z: 0, w: 0.7071068}
+      scale: {x: -0.25, y: -0.25000006, z: -0.25000006}
+    - name: Auricular region.g
+      parentName: Regions of head.g
+      position: {x: 0.00004871029, y: -0.0000552392, z: 0.000043896984}
+      rotation: {x: -1.3322678e-14, y: -0, z: 0, w: 1}
+      scale: {x: 0.8, y: 0.79999995, z: 0.79999995}
+    - name: Cavity of concha.l
+      parentName: Auricular region.g
+      position: {x: 0.00062010874, y: -0.000036031008, z: -0.0000017941475}
+      rotation: {x: -0.7071067, y: -0, z: 0, w: 0.7071068}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Cavity of concha.r
+      parentName: Auricular region.g
+      position: {x: 0.0002799581, y: -0.000036031008, z: -0.0000017941475}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: Concha of auricle.l
+      parentName: Auricular region.g
+      position: {x: 0.0006310621, y: -0.000022660794, z: 0.000009667261}
+      rotation: {x: -0.7071067, y: -0, z: 0, w: 0.7071068}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Concha of auricle.r
+      parentName: Auricular region.g
+      position: {x: 0.00026900478, y: -0.000022660794, z: 0.000009667261}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: Cymba conchae.l
+      parentName: Auricular region.g
+      position: {x: 0.0006348265, y: -0.000011416677, z: 0.000011799744}
+      rotation: {x: -0.7071067, y: -0, z: 0, w: 0.7071068}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Cymba conchae.r
+      parentName: Auricular region.g
+      position: {x: 0.00026524038, y: -0.000011416677, z: 0.000011799744}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: Anterior notch of auricle.r
+      parentName: Auricular region.g
+      position: {x: 0.00027309216, y: -0.000011599362, z: -0.000013662006}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: Antihelix.r
+      parentName: Auricular region.g
+      position: {x: 0.0002473264, y: -0.000026121737, z: 0.000011758083}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: Antitragus.r
+      parentName: Auricular region.g
+      position: {x: 0.0002620871, y: -0.00005698979, z: -0.000005112526}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: Apex of auricle.r
+      parentName: Auricular region.g
+      position: {x: 0.00022949332, y: 0.000041502113, z: 0.0000052534415}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: Auricular region.r
+      parentName: Auricular region.g
+      position: {x: 0.00027696256, y: -0.000013307633, z: -0.00000017126555}
+      rotation: {x: -0.000000014280916, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: Auricular tubercle.r
+      parentName: Auricular region.g
+      position: {x: 0.00021974271, y: 0.0000042551696, z: 0.000029730527}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: Crura of antihelix.r
+      parentName: Auricular region.g
+      position: {x: 0.0002525849, y: 0.000014779267, z: 0.0000027939454}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: Eminencia conchae.r
+      parentName: Auricular region.g
+      position: {x: 0.0002731935, y: -0.000040605966, z: 0.000020538433}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: Eminencia fossae triangularis.r
+      parentName: Auricular region.g
+      position: {x: 0.00025891868, y: 0.000032510758, z: -0.000008214927}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: Eminencia scaphae.r
+      parentName: Auricular region.g
+      position: {x: 0.00024583164, y: 0.000019862051, z: 0.00002502346}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: Fossa antihelica.r
+      parentName: Auricular region.g
+      position: {x: 0.0002532362, y: -0.0000049942787, z: 0.000027856102}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: Helix.r
+      parentName: Auricular region.g
+      position: {x: 0.00023717688, y: 0.0000065180625, z: 0.000013599874}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: Intertragic incisure.r
+      parentName: Auricular region.g
+      position: {x: 0.000281414, y: -0.000054785607, z: -0.00001970444}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: Lobule of auricle.r
+      parentName: Auricular region.g
+      position: {x: 0.00027537165, y: -0.00008202552, z: -0.000012819712}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: Scapha.r
+      parentName: Auricular region.g
+      position: {x: 0.00023328715, y: 0.0000056952185, z: 0.000023818551}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: Tragus.r
+      parentName: Auricular region.g
+      position: {x: 0.0002744056, y: -0.000027894674, z: -0.000023396418}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: Triangular fossa.r
+      parentName: Auricular region.g
+      position: {x: 0.00025562607, y: 0.000019798872, z: -0.0000021627184}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: Posterior auricular groove.r
+      parentName: Auricular region.g
+      position: {x: 0.00028021773, y: -0.000017700795, z: 0.000019453675}
+      rotation: {x: -0.000000014280916, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: Anterior notch of auricle.l
+      parentName: Auricular region.g
+      position: {x: 0.0006269747, y: -0.000011599362, z: -0.000013662006}
+      rotation: {x: -0.7071067, y: -0, z: 0, w: 0.7071068}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Antihelix.l
+      parentName: Auricular region.g
+      position: {x: 0.0006527404, y: -0.000026121737, z: 0.000011758083}
+      rotation: {x: -0.7071067, y: -0, z: 0, w: 0.7071068}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Antitragus.l
+      parentName: Auricular region.g
+      position: {x: 0.00063797977, y: -0.00005698979, z: -0.000005112526}
+      rotation: {x: -0.7071067, y: -0, z: 0, w: 0.7071068}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Apex of auricle.l
+      parentName: Auricular region.g
+      position: {x: 0.00067057356, y: 0.000041502113, z: 0.0000052534415}
+      rotation: {x: -0.7071067, y: -0, z: 0, w: 0.7071068}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Auricular region.l
+      parentName: Auricular region.g
+      position: {x: 0.0006231043, y: -0.000013307633, z: -0.00000017126555}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Auricular tubercle.l
+      parentName: Auricular region.g
+      position: {x: 0.0006803241, y: 0.0000042551696, z: 0.000029730527}
+      rotation: {x: -0.7071067, y: -0, z: 0, w: 0.7071068}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Crura of antihelix.l
+      parentName: Auricular region.g
+      position: {x: 0.00064748194, y: 0.000014779267, z: 0.0000027939454}
+      rotation: {x: -0.7071067, y: -0, z: 0, w: 0.7071068}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Eminencia conchae.l
+      parentName: Auricular region.g
+      position: {x: 0.00062687334, y: -0.000040605966, z: 0.000020538433}
+      rotation: {x: -0.7071067, y: -0, z: 0, w: 0.7071068}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Eminencia fossae triangularis.l
+      parentName: Auricular region.g
+      position: {x: 0.00064114813, y: 0.000032510758, z: -0.000008214927}
+      rotation: {x: -0.7071067, y: -0, z: 0, w: 0.7071068}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Eminencia scaphae.l
+      parentName: Auricular region.g
+      position: {x: 0.0006542352, y: 0.000019862051, z: 0.00002502346}
+      rotation: {x: -0.7071067, y: -0, z: 0, w: 0.7071068}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Fossa antihelica.l
+      parentName: Auricular region.g
+      position: {x: 0.00064683065, y: -0.0000049942787, z: 0.000027856102}
+      rotation: {x: -0.7071067, y: -0, z: 0, w: 0.7071068}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Helix.l
+      parentName: Auricular region.g
+      position: {x: 0.00066289, y: 0.0000065180625, z: 0.000013599874}
+      rotation: {x: -0.7071067, y: -0, z: 0, w: 0.7071068}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Intertragic incisure.l
+      parentName: Auricular region.g
+      position: {x: 0.00061865285, y: -0.000054785607, z: -0.00001970444}
+      rotation: {x: -0.7071067, y: -0, z: 0, w: 0.7071068}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Lobule of auricle.l
+      parentName: Auricular region.g
+      position: {x: 0.0006246952, y: -0.00008202552, z: -0.000012819712}
+      rotation: {x: -0.7071067, y: -0, z: 0, w: 0.7071068}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Scapha.l
+      parentName: Auricular region.g
+      position: {x: 0.0006667797, y: 0.0000056952185, z: 0.000023818551}
+      rotation: {x: -0.7071067, y: -0, z: 0, w: 0.7071068}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Tragus.l
+      parentName: Auricular region.g
+      position: {x: 0.0006256612, y: -0.000027894674, z: -0.000023396418}
+      rotation: {x: -0.7071067, y: -0, z: 0, w: 0.7071068}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Triangular fossa.l
+      parentName: Auricular region.g
+      position: {x: 0.00064444076, y: 0.000019798872, z: -0.0000021627184}
+      rotation: {x: -0.7071067, y: -0, z: 0, w: 0.7071068}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Posterior auricular groove.l
+      parentName: Auricular region.g
+      position: {x: 0.0006198491, y: -0.000017700795, z: 0.000019453675}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Auricular region-line
+      parentName: Auricular region.g
+      position: {x: 0, y: -1.7991488e-12, z: 1.1641532e-12}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Regions of face.g
+      parentName: Regions of head.g
+      position: {x: 0.000111490896, y: -0.0001339179, z: -0.00007925982}
+      rotation: {x: -1.3322678e-14, y: -0, z: 0, w: 1}
+      scale: {x: 0.8, y: 0.79999995, z: 0.79999995}
+    - name: Orbital region.r
+      parentName: Regions of face.g
+      position: {x: 0.00029589425, y: 0.000111669324, z: -0.000056230052}
+      rotation: {x: -0.000000014280916, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: Upper eyelid.t
+      parentName: Orbital region.r
+      position: {x: -0.000032220723, y: 0.00007481592, z: -0.00028512508}
+      rotation: {x: 0.00000001428092, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Upper eyelid-line
+      parentName: Upper eyelid.t
+      position: {x: 0, y: 1.4406859e-10, z: 7.4505804e-11}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lower eyelid.t
+      parentName: Orbital region.r
+      position: {x: 0.000013543981, y: -0.0000977276, z: -0.00027872637}
+      rotation: {x: 0.00000001428092, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Lower eyelid-line
+      parentName: Lower eyelid.t
+      position: {x: -1.8626451e-11, y: 1.4320886e-10, z: 7.4505804e-11}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eyelids.t
+      parentName: Orbital region.r
+      position: {x: -0.00011549672, y: -0.000008456532, z: -0.00028324217}
+      rotation: {x: 0.00000001428092, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Eyelids-line
+      parentName: Eyelids.t
+      position: {x: -3.7252902e-11, y: 1.438156e-10, z: 1.4901161e-10}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Orbital region.l
+      parentName: Regions of face.g
+      position: {x: 0.0004472212, y: 0.000111669324, z: -0.000056230052}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Nasal region.r
+      parentName: Regions of face.g
+      position: {x: 0.00035147084, y: 0.000026411151, z: -0.00011127221}
+      rotation: {x: -0.000000014280916, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: External nose.t
+      parentName: Nasal region.r
+      position: {x: -0.00019309144, y: 0.00013868706, z: 0.000030121504}
+      rotation: {x: 0.00000001428092, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: External nose-line
+      parentName: External nose.t
+      position: {x: -1.8626451e-11, y: 1.3129402e-10, z: 0}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ala of nose.t
+      parentName: Nasal region.r
+      position: {x: -0.00023469783, y: 0.00001705544, z: -0.000018555}
+      rotation: {x: 0.00000001428092, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Ala of nose-line
+      parentName: Ala of nose.t
+      position: {x: 0, y: 1.3783415e-10, z: 7.4505804e-11}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Root of nose.t
+      parentName: Nasal region.r
+      position: {x: 0.000054078, y: 0.00043393273, z: -0.0000951203}
+      rotation: {x: 0.00000001428092, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Root of nose-line
+      parentName: Root of nose.t
+      position: {x: -2.3283064e-12, y: 1.4812139e-10, z: -7.4505804e-11}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dorsum of nose.t
+      parentName: Nasal region.r
+      position: {x: 0.000045508146, y: 0.00021627208, z: -0.00022530287}
+      rotation: {x: 0.00000001428092, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Dorsum of nose-line
+      parentName: Dorsum of nose.t
+      position: {x: -2.3283064e-12, y: 1.6561257e-10, z: 0}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Apex of nose.t
+      parentName: Nasal region.r
+      position: {x: 0.000058474376, y: 0.0000037743869, z: -0.00034892678}
+      rotation: {x: 0.00000001428092, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Apex of nose-line
+      parentName: Apex of nose.t
+      position: {x: 0, y: -0.0000000010098703, z: 0}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nasal region.l
+      parentName: Regions of face.g
+      position: {x: 0.0003916446, y: 0.000026411151, z: -0.00011127221}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Angle of mouth.r
+      parentName: Regions of face.g
+      position: {x: 0.00030493495, y: -0.000046818823, z: -0.00006366774}
+      rotation: {x: -0.000000014280916, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: Labial commissure.r
+      parentName: Regions of face.g
+      position: {x: 0.00034184442, y: -0.000046990186, z: -0.000082944665}
+      rotation: {x: -0.000000014280916, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: Mouth.t
+      parentName: Labial commissure.r
+      position: {x: 0.0001188531, y: 0.000018996181, z: -0.00022335172}
+      rotation: {x: 0.00000001428092, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Oral region.r
+      parentName: Regions of face.g
+      position: {x: 0.00033158093, y: -0.00004637924, z: -0.00008403519}
+      rotation: {x: -0.000000014280916, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: Upper lip.t
+      parentName: Oral region.r
+      position: {x: 0.000068242196, y: 0.000048473066, z: -0.00025492758}
+      rotation: {x: 0.00000001428092, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Upper lip-line
+      parentName: Upper lip.t
+      position: {x: 9.3132255e-12, y: 1.5495477e-10, z: -7.4505804e-11}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lower lip.t
+      parentName: Oral region.r
+      position: {x: 0.0000720668, y: -0.00003719907, z: -0.0002469632}
+      rotation: {x: 0.00000001428092, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Lower lip-line
+      parentName: Lower lip.t
+      position: {x: 0, y: 1.5388467e-10, z: -7.4505804e-11}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Philtrum.r
+      parentName: Regions of face.g
+      position: {x: 0.00036760347, y: -0.000014483, z: -0.00010772119}
+      rotation: {x: -0.000000014280916, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: Tubercle of upper lip.r
+      parentName: Regions of face.g
+      position: {x: 0.0003696307, y: -0.00003616866, z: -0.000106814965}
+      rotation: {x: -0.000000014280916, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: Angle of mouth.l
+      parentName: Regions of face.g
+      position: {x: 0.00043818052, y: -0.000046818823, z: -0.00006366774}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Labial commissure.l
+      parentName: Regions of face.g
+      position: {x: 0.000401271, y: -0.000046990186, z: -0.000082944665}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Oral region.l
+      parentName: Regions of face.g
+      position: {x: 0.00041153454, y: -0.00004637924, z: -0.00008403519}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Philtrum.l
+      parentName: Regions of face.g
+      position: {x: 0.00037551197, y: -0.000014483, z: -0.00010772119}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Tubercle of upper lip.l
+      parentName: Regions of face.g
+      position: {x: 0.00037348474, y: -0.00003616866, z: -0.000106814965}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Buccal region.r
+      parentName: Regions of face.g
+      position: {x: 0.00026657156, y: -0.0000428283, z: -0.000028118584}
+      rotation: {x: -0.000000014280916, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: Cheek.t
+      parentName: Buccal region.r
+      position: {x: -0.00036685623, y: 0.000035023775, z: 0.00014401789}
+      rotation: {x: 0.00000001428092, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Cheek-line
+      parentName: Cheek.t
+      position: {x: -7.4505804e-11, y: 7.130132e-11, z: 3.7252902e-11}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Infraorbital region.r
+      parentName: Regions of face.g
+      position: {x: 0.00029271867, y: 0.000050936367, z: -0.000057451554}
+      rotation: {x: -0.000000014280916, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: Mental region.r
+      parentName: Regions of face.g
+      position: {x: 0.00034415736, y: -0.00011481759, z: -0.000069474714}
+      rotation: {x: -0.000000014280916, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: Chin.t
+      parentName: Mental region.r
+      position: {x: 0.00010960145, y: -0.000052991938, z: -0.00019797772}
+      rotation: {x: 0.00000001428092, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Chin-line
+      parentName: Chin.t
+      position: {x: 0, y: 1.3947771e-10, z: 7.4505804e-11}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mentolabial sulcus.r
+      parentName: Regions of face.g
+      position: {x: 0.00035679582, y: -0.000085339816, z: -0.000083672254}
+      rotation: {x: -0.000000014280916, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: Parotidomassetereic region.r
+      parentName: Regions of face.g
+      position: {x: 0.00021961465, y: -0.000008494844, z: 0.000073078416}
+      rotation: {x: -0.000000014280916, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: Zygomatic region.r
+      parentName: Regions of face.g
+      position: {x: 0.00021673321, y: 0.000068466084, z: 0.000019010025}
+      rotation: {x: -0.000000014280916, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: Nasolabial sulcus.r
+      parentName: Regions of face.g
+      position: {x: 0.00029979588, y: -0.000019106836, z: -0.000070502894}
+      rotation: {x: -0.000000014280916, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999997, z: 0.24999997}
+    - name: Buccal region.l
+      parentName: Regions of face.g
+      position: {x: 0.00047654388, y: -0.0000428283, z: -0.000028118584}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Infraorbital region.l
+      parentName: Regions of face.g
+      position: {x: 0.0004503968, y: 0.000050936367, z: -0.000057451554}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Mental region.l
+      parentName: Regions of face.g
+      position: {x: 0.0003989581, y: -0.00011481759, z: -0.000069474714}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Mentolabial sulcus.l
+      parentName: Regions of face.g
+      position: {x: 0.00038631965, y: -0.000085339816, z: -0.000083672254}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Parotidomassetereic region.l
+      parentName: Regions of face.g
+      position: {x: 0.0005235008, y: -0.000008494844, z: 0.000073078416}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Zygomatic region.l
+      parentName: Regions of face.g
+      position: {x: 0.00052638224, y: 0.000068466084, z: 0.000019010025}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Nasolabial sulcus.l
+      parentName: Regions of face.g
+      position: {x: 0.0004433196, y: -0.000019106836, z: -0.000070502894}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999997, z: -0.24999997}
+    - name: Regions of face-line
+      parentName: Regions of face.g
+      position: {x: 3.7252902e-11, y: -2.7913835e-10, z: -2.7939677e-11}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Regions of neck.g
+      parentName: BodyRegions100(Clone)
+      position: {x: -0.0019305727, y: 0.00013350448, z: -0.015134703}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 5, y: 4.9999995, z: 4.9999995}
+    - name: Posterior cervical region.r
+      parentName: Regions of neck.g
+      position: {x: 0.00026294228, y: -0.00008044453, z: 0.0000983662}
+      rotation: {x: -0.000000014280927, y: -0, z: 0, w: 1}
+      scale: {x: 0.2, y: 0.19999997, z: 0.19999997}
+    - name: Posterior cervical region.l
+      parentName: Regions of neck.g
+      position: {x: 0.00050928677, y: -0.00008044453, z: 0.0000983662}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.2, y: -0.19999997, z: -0.19999997}
+    - name: Regions of neck-line
+      parentName: Regions of neck.g
+      position: {x: 0, y: -3.5875025e-12, z: 4.6566128e-12}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lateral region of neck.g
+      parentName: Regions of neck.g
+      position: {x: -0.00004154153, y: -0.00013740867, z: -0.00002580671}
+      rotation: {x: -2.3684764e-14, y: -0, z: 0, w: 1}
+      scale: {x: 0.6, y: 0.59999985, z: 0.59999985}
+    - name: Lateral region of neck-line
+      parentName: Lateral region of neck.g
+      position: {x: 7.4505804e-11, y: -5.9624666e-10, z: 0}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Lateral region of neck.r
+      parentName: Lateral region of neck.g
+      position: {x: 0.0004961003, y: 0.00011363237, z: 0.0000436031}
+      rotation: {x: -0.000000014280935, y: -0, z: 0, w: 1}
+      scale: {x: 0.3333333, y: 0.3333333, z: 0.3333333}
+    - name: Greater subclavian fossa.r
+      parentName: Lateral region of neck.g
+      position: {x: 0.00047379546, y: 0.000015827714, z: -0.0000020367968}
+      rotation: {x: -0.000000014280935, y: -0, z: 0, w: 1}
+      scale: {x: 0.3333333, y: 0.3333333, z: 0.3333333}
+    - name: Lateral region of neck.l
+      parentName: Lateral region of neck.g
+      position: {x: 0.0009294198, y: 0.00011363237, z: 0.0000436031}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.3333333, y: -0.3333333, z: -0.3333333}
+    - name: Greater subclavian fossa.l
+      parentName: Lateral region of neck.g
+      position: {x: 0.0009517247, y: 0.000015827714, z: -0.0000020367968}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.3333333, y: -0.3333333, z: -0.3333333}
+    - name: Anterior region of neck.g
+      parentName: Regions of neck.g
+      position: {x: 0.00038608132, y: -0.00011128124, z: -0.000271228}
+      rotation: {x: -0.706673, y: -0, z: 0.000057223093, w: 0.7075403}
+      scale: {x: 0.6, y: 0.59999985, z: 0.59999985}
+    - name: Anterior region of neck-line
+      parentName: Anterior region of neck.g
+      position: {x: 4.5474734e-15, y: 6.5080374e-10, z: 0}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Suprahyoid region.g
+      parentName: Anterior region of neck.g
+      position: {x: -0.00000034295635, y: 0.000043112977, z: 0.000057042278}
+      rotation: {x: 0.00003421307, y: 0.7322132, z: -0.3098021, w: 0.6065365}
+      scale: {x: 0.66666657, y: 0.6666665, z: 0.6666665}
+    - name: Submandibular triangle.r
+      parentName: Suprahyoid region.g
+      position: {x: -0.00018822048, y: 0.00016238453, z: 0.0003284064}
+      rotation: {x: -0.000000014280916, y: -0, z: 0, w: 1}
+      scale: {x: 0.5, y: 0.49999994, z: 0.49999994}
+    - name: Submental triangle.r
+      parentName: Suprahyoid region.g
+      position: {x: -0.000058587706, y: 0.00008336787, z: 0.00019702937}
+      rotation: {x: -0.000000014280916, y: -0, z: 0, w: 1}
+      scale: {x: 0.5, y: 0.49999994, z: 0.49999994}
+    - name: Submandibular triangle.l
+      parentName: Suprahyoid region.g
+      position: {x: 0.00018941532, y: 0.00016238453, z: 0.0003284064}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.5, y: -0.49999994, z: -0.49999994}
+    - name: Submental triangle.l
+      parentName: Suprahyoid region.g
+      position: {x: 0.000059782553, y: 0.00008336787, z: 0.00019702937}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.5, y: -0.49999994, z: -0.49999994}
+    - name: Suprahyoid region-line
+      parentName: Suprahyoid region.g
+      position: {x: 3.6379787e-14, y: 6.6668626e-10, z: 3.7252902e-11}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Infrahyoid region.g
+      parentName: Anterior region of neck.g
+      position: {x: 0.0000000072550073, y: -0.000040525454, z: 0.00009009369}
+      rotation: {x: -2.664536e-14, y: -0, z: 0, w: 1}
+      scale: {x: 0.66666657, y: 0.6666665, z: 0.6666665}
+    - name: Carotid triangle.r
+      parentName: Infrahyoid region.g
+      position: {x: -0.00015887327, y: 0.00024167003, z: 0.00030799815}
+      rotation: {x: -0.000000014280916, y: -0, z: 0, w: 1}
+      scale: {x: 0.5, y: 0.49999994, z: 0.49999994}
+    - name: Muscular triangle.r
+      parentName: Infrahyoid region.g
+      position: {x: -0.00004596954, y: 0.00005631152, z: 0.00024749592}
+      rotation: {x: -0.000000014280916, y: -0, z: 0, w: 1}
+      scale: {x: 0.5, y: 0.49999994, z: 0.49999994}
+    - name: Carotid triangle.l
+      parentName: Infrahyoid region.g
+      position: {x: 0.00015901748, y: 0.00024167003, z: 0.00030799815}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.5, y: -0.49999994, z: -0.49999994}
+    - name: Muscular triangle.l
+      parentName: Infrahyoid region.g
+      position: {x: 0.000046113757, y: 0.00005631152, z: 0.00024749592}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.5, y: -0.49999994, z: -0.49999994}
+    - name: Infrahyoid region-line
+      parentName: Infrahyoid region.g
+      position: {x: 0, y: 6.6002515e-10, z: 0}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Sternocleidomastoid region.g
+      parentName: Regions of neck.g
+      position: {x: 0.00002464801, y: -0.00007409542, z: -0.00007921335}
+      rotation: {x: -2.3684764e-14, y: -0, z: 0, w: 1}
+      scale: {x: 0.6, y: 0.59999985, z: 0.59999985}
+    - name: Sternocleidomastoid region.r
+      parentName: Sternocleidomastoid region.g
+      position: {x: 0.0004585793, y: -0.000005107214, z: 0.000011842949}
+      rotation: {x: -0.000000014280935, y: -0, z: 0, w: 1}
+      scale: {x: 0.3333333, y: 0.3333333, z: 0.3333333}
+    - name: Lesser supraclavicular fossa.r
+      parentName: Sternocleidomastoid region.g
+      position: {x: 0.0004392307, y: -0.00015511719, z: -0.0000409991}
+      rotation: {x: -0.000000014280935, y: -0, z: 0, w: 1}
+      scale: {x: 0.3333333, y: 0.3333333, z: 0.3333333}
+    - name: Sternocleidomastoid region.l
+      parentName: Sternocleidomastoid region.g
+      position: {x: 0.000746309, y: -0.000005107214, z: 0.000011842949}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.3333333, y: -0.3333333, z: -0.3333333}
+    - name: Lesser supraclavicular fossa.l
+      parentName: Sternocleidomastoid region.g
+      position: {x: 0.00076565763, y: -0.00015511719, z: -0.0000409991}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.3333333, y: -0.3333333, z: -0.3333333}
+    - name: Sternocleidomastoid region-line
+      parentName: Sternocleidomastoid region.g
+      position: {x: 0, y: -5.8428723e-10, z: -9.3132255e-12}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Regions of abdomen.g
+      parentName: BodyRegions100(Clone)
+      position: {x: 0.000005966704, y: -0.0023923097, z: -0.010448868}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 5, y: 5, z: 4.9999995}
+    - name: Epigastric region.r
+      parentName: Regions of abdomen.g
+      position: {x: -0.00006990219, y: 0.0002145112, z: 0.00022826825}
+      rotation: {x: -0.000000014280926, y: -0, z: 0, w: 1}
+      scale: {x: 0.20000002, y: 0.19999997, z: 0.19999999}
+    - name: Epigastric region.l
+      parentName: Regions of abdomen.g
+      position: {x: 0.00006751551, y: 0.0002145112, z: 0.00022826825}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.20000002, y: -0.19999997, z: -0.19999999}
+    - name: Umbilical region.r
+      parentName: Regions of abdomen.g
+      position: {x: -0.00006949468, y: -0.000033786713, z: 0.0002457584}
+      rotation: {x: -0.000000014280926, y: -0, z: 0, w: 1}
+      scale: {x: 0.20000002, y: 0.19999997, z: 0.19999999}
+    - name: Abdomen.t
+      parentName: Umbilical region.r
+      position: {x: 0.00007060798, y: 0.000009577537, z: -0.00044695562}
+      rotation: {x: 0.000000014280927, y: 0, z: 0, w: 1}
+      scale: {x: 3, y: 3.0000005, z: 3.0000005}
+    - name: Abdomen-line
+      parentName: Abdomen.t
+      position: {x: -1.8626451e-11, y: -0.0000000011199658, z: -3.7252902e-11}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Umbilicus.r
+      parentName: Regions of abdomen.g
+      position: {x: -0.000011740478, y: -0.000053351785, z: 0.00024661756}
+      rotation: {x: -0.000000014280926, y: -0, z: 0, w: 1}
+      scale: {x: 0.20000002, y: 0.19999997, z: 0.19999999}
+    - name: Umbilical region.l
+      parentName: Regions of abdomen.g
+      position: {x: 0.000067108, y: -0.000033786713, z: 0.0002457584}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.20000002, y: -0.19999997, z: -0.19999999}
+    - name: Umbilicus.l
+      parentName: Regions of abdomen.g
+      position: {x: 0.0000093537965, y: -0.000053351785, z: 0.00024661756}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.20000002, y: -0.19999997, z: -0.19999999}
+    - name: Hypochondriac region.r
+      parentName: Regions of abdomen.g
+      position: {x: -0.00024855623, y: 0.00015446663, z: 0.000388501}
+      rotation: {x: -0.000000014280926, y: -0, z: 0, w: 1}
+      scale: {x: 0.20000002, y: 0.19999997, z: 0.19999999}
+    - name: Hypogastric region.r
+      parentName: Regions of abdomen.g
+      position: {x: -0.000052223586, y: -0.00031341639, z: 0.00029770558}
+      rotation: {x: -0.000000014280926, y: -0, z: 0, w: 1}
+      scale: {x: 0.20000002, y: 0.19999997, z: 0.19999999}
+    - name: Inguinal region.r
+      parentName: Regions of abdomen.g
+      position: {x: -0.0001341214, y: -0.0002983707, z: 0.00031685035}
+      rotation: {x: -0.000000014280926, y: -0, z: 0, w: 1}
+      scale: {x: 0.20000002, y: 0.19999997, z: 0.19999999}
+    - name: Lateral region of abdomen.r
+      parentName: Regions of abdomen.g
+      position: {x: -0.00024729193, y: -0.0000086721675, z: 0.00039889442}
+      rotation: {x: -0.000000014280926, y: -0, z: 0, w: 1}
+      scale: {x: 0.20000002, y: 0.19999997, z: 0.19999999}
+    - name: Hypochondriac region.l
+      parentName: Regions of abdomen.g
+      position: {x: 0.00024616957, y: 0.00015446663, z: 0.000388501}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.20000002, y: -0.19999997, z: -0.19999999}
+    - name: Hypogastric region.l
+      parentName: Regions of abdomen.g
+      position: {x: 0.000049836905, y: -0.00031341639, z: 0.00029770558}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.20000002, y: -0.19999997, z: -0.19999999}
+    - name: Inguinal region.l
+      parentName: Regions of abdomen.g
+      position: {x: 0.0001317347, y: -0.0002983707, z: 0.00031685035}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.20000002, y: -0.19999997, z: -0.19999999}
+    - name: Lateral region of abdomen.l
+      parentName: Regions of abdomen.g
+      position: {x: 0.00024490524, y: -0.0000086721675, z: 0.00039889442}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.20000002, y: -0.19999997, z: -0.19999999}
+    - name: Regions of abdomen-line
+      parentName: Regions of abdomen.g
+      position: {x: -7.2759575e-14, y: -8.4726004e-11, z: 3.7252902e-11}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Regions of back.g
+      parentName: BodyRegions100(Clone)
+      position: {x: -0.0000022893678, y: 0.0021293748, z: -0.01200739}
+      rotation: {x: -0.000000053385083, y: 0.7071068, z: -0.7071067, w: 0.00000005338507}
+      scale: {x: 5.000001, y: 5.0000005, z: 5.0000005}
+    - name: Lumbar region.r
+      parentName: Regions of back.g
+      position: {x: 0.00015187719, y: -0.0003144556, z: 0.00025636223}
+      rotation: {x: 3.1569214e-16, y: 1, z: 0.000000081460335, w: -0.0000000754979}
+      scale: {x: 0.19999996, y: 0.19999996, z: 0.19999996}
+    - name: Lumbar region.l
+      parentName: Regions of back.g
+      position: {x: -0.0001527929, y: -0.0003144556, z: 0.00025636225}
+      rotation: {x: 0.000000043711385, y: -0.000000081460335, z: 1, w: 0.000000043711392}
+      scale: {x: -0.19999996, y: -0.19999996, z: -0.19999996}
+    - name: Sacral region.r
+      parentName: Regions of back.g
+      position: {x: 0.00005838206, y: -0.00050993153, z: 0.00020936277}
+      rotation: {x: 3.1569214e-16, y: 1, z: 0.000000081460335, w: -0.0000000754979}
+      scale: {x: 0.19999996, y: 0.19999996, z: 0.19999996}
+    - name: Sacral region.l
+      parentName: Regions of back.g
+      position: {x: -0.000059297774, y: -0.00050993153, z: 0.00020936277}
+      rotation: {x: 0.000000043711385, y: -0.000000081460335, z: 1, w: 0.000000043711392}
+      scale: {x: -0.19999996, y: -0.19999996, z: -0.19999996}
+    - name: Infrascapular region.r
+      parentName: Regions of back.g
+      position: {x: 0.00016840942, y: -0.000017850518, z: 0.00020681662}
+      rotation: {x: 3.1569214e-16, y: 1, z: 0.000000081460335, w: -0.0000000754979}
+      scale: {x: 0.19999996, y: 0.19999996, z: 0.19999996}
+    - name: Interscapular region*.r
+      parentName: Regions of back.g
+      position: {x: 0.00009551755, y: 0.0003059301, z: 0.00017719486}
+      rotation: {x: 3.1569214e-16, y: 1, z: 0.000000081460335, w: -0.0000000754979}
+      scale: {x: 0.19999996, y: 0.19999996, z: 0.19999996}
+    - name: Scapular region.r
+      parentName: Regions of back.g
+      position: {x: 0.0002223828, y: 0.0003017113, z: 0.00019039847}
+      rotation: {x: 3.1569214e-16, y: 1, z: 0.000000081460335, w: -0.0000000754979}
+      scale: {x: 0.19999996, y: 0.19999996, z: 0.19999996}
+    - name: Triangle of auscultation.r
+      parentName: Regions of back.g
+      position: {x: 0.00013220235, y: 0.00017738077, z: 0.00015857216}
+      rotation: {x: 3.1569214e-16, y: 1, z: 0.000000081460335, w: -0.0000000754979}
+      scale: {x: 0.19999996, y: 0.19999996, z: 0.19999996}
+    - name: Vertebral region.r
+      parentName: Regions of back.g
+      position: {x: 0.000028123344, y: 0.000021191865, z: 0.00020854724}
+      rotation: {x: 3.1569214e-16, y: 1, z: 0.000000081460335, w: -0.0000000754979}
+      scale: {x: 0.19999996, y: 0.19999996, z: 0.19999996}
+    - name: Infrascapular region.l
+      parentName: Regions of back.g
+      position: {x: -0.00016932513, y: -0.000017850518, z: 0.00020681665}
+      rotation: {x: 0.000000043711385, y: -0.000000081460335, z: 1, w: 0.000000043711392}
+      scale: {x: -0.19999996, y: -0.19999996, z: -0.19999996}
+    - name: Interscapular region*.l
+      parentName: Regions of back.g
+      position: {x: -0.000096433265, y: 0.0003059301, z: 0.00017719486}
+      rotation: {x: 0.000000043711385, y: -0.000000081460335, z: 1, w: 0.000000043711392}
+      scale: {x: -0.19999996, y: -0.19999996, z: -0.19999996}
+    - name: Scapular region.l
+      parentName: Regions of back.g
+      position: {x: -0.00022329851, y: 0.0003017113, z: 0.0001903985}
+      rotation: {x: 0.000000043711385, y: -0.000000081460335, z: 1, w: 0.000000043711392}
+      scale: {x: -0.19999996, y: -0.19999996, z: -0.19999996}
+    - name: Triangle of auscultation.l
+      parentName: Regions of back.g
+      position: {x: -0.00013311808, y: 0.00017738077, z: 0.00015857219}
+      rotation: {x: 0.000000043711385, y: -0.000000081460335, z: 1, w: 0.000000043711392}
+      scale: {x: -0.19999996, y: -0.19999996, z: -0.19999996}
+    - name: Vertebral region.l
+      parentName: Regions of back.g
+      position: {x: -0.000029039054, y: 0.000021191865, z: 0.00020854724}
+      rotation: {x: 0.000000043711385, y: -0.000000081460335, z: 1, w: 0.000000043711392}
+      scale: {x: -0.19999996, y: -0.19999996, z: -0.19999996}
+    - name: Regions of back-line
+      parentName: Regions of back.g
+      position: {x: 3.6379787e-14, y: 5.722006e-11, z: 0}
+      rotation: {x: 0.7071081, y: -7.065724e-21, z: -2.6259847e-20, w: 0.7071055}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Regions of perineum.g
+      parentName: BodyRegions100(Clone)
+      position: {x: -1.3969838e-10, y: 0.0021648959, z: -0.007867277}
+      rotation: {x: -0.000000053385094, y: 0.7071068, z: -0.7071067, w: 0.00000005338506}
+      scale: {x: 5.000001, y: 5.0000005, z: 5.0000005}
+    - name: Anal region.r
+      parentName: Regions of perineum.g
+      position: {x: 0.000009646404, y: -0.0000471036, z: 0.0003392155}
+      rotation: {x: -1.478334e-14, y: 1, z: 0.000000081460335, w: -0.0000000754979}
+      scale: {x: 0.19999996, y: 0.19999996, z: 0.19999996}
+    - name: Anal region.l
+      parentName: Regions of perineum.g
+      position: {x: -0.0000096464, y: -0.0000471036, z: 0.0003392155}
+      rotation: {x: 0.000000043711385, y: -0.000000081460335, z: 1, w: 0.000000043711392}
+      scale: {x: -0.19999996, y: -0.19999996, z: -0.19999996}
+    - name: Urogenital region.r
+      parentName: Regions of perineum.g
+      position: {x: 0.000025232222, y: -0.000023383514, z: 0.0005625202}
+      rotation: {x: -1.478334e-14, y: 1, z: 0.000000081460335, w: -0.0000000754979}
+      scale: {x: 0.19999996, y: 0.19999996, z: 0.19999996}
+    - name: Urogenital region.l
+      parentName: Regions of perineum.g
+      position: {x: -0.00002523218, y: -0.000023383514, z: 0.0005625202}
+      rotation: {x: 0.000000043711385, y: -0.000000081460335, z: 1, w: 0.000000043711392}
+      scale: {x: -0.19999996, y: -0.19999996, z: -0.19999996}
+    - name: Regions of perineum-line
+      parentName: Regions of perineum.g
+      position: {x: -1.2212453e-17, y: 2.0718617e-10, z: 3.7252902e-11}
+      rotation: {x: 0.7071081, y: -7.42146e-21, z: -5.1625738e-20, w: 0.7071055}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Regions of upper limb.g
+      parentName: BodyRegions100(Clone)
+      position: {x: -0.004092009, y: 0.0004553441, z: -0.011372158}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 5, y: 4.9999995, z: 4.9999995}
+    - name: Deltoid region.r
+      parentName: Regions of upper limb.g
+      position: {x: 0.00042240627, y: 0.0004498112, z: -0.00002966043}
+      rotation: {x: -0.000000014280927, y: -0, z: 0, w: 1}
+      scale: {x: 0.2, y: 0.19999997, z: 0.19999997}
+    - name: Deltoid region.l
+      parentName: Regions of upper limb.g
+      position: {x: 0.0012143973, y: 0.0004498112, z: -0.00002966043}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.2, y: -0.19999997, z: -0.19999997}
+    - name: Regions of upper limb-line
+      parentName: Regions of upper limb.g
+      position: {x: 0, y: -0.0000000012043289, z: 4.6566126e-11}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Brachial region.g
+      parentName: Regions of upper limb.g
+      position: {x: 0.00011205405, y: 0.0001354651, z: -0.0000072492285}
+      rotation: {x: -2.2204464e-14, y: -0, z: 0, w: 1}
+      scale: {x: 0.8, y: 0.79999983, z: 0.79999983}
+    - name: Brachial region-line
+      parentName: Brachial region.g
+      position: {x: -7.4505804e-11, y: -6.1012384e-10, z: -1.8626451e-11}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Anterior region of arm.r
+      parentName: Brachial region.g
+      position: {x: 0.00037131982, y: 0.000006290373, z: -0.00008094839}
+      rotation: {x: -0.000000014280923, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999999, z: 0.24999999}
+    - name: Lateral bicipital groove.r
+      parentName: Brachial region.g
+      position: {x: 0.00029603846, y: 0.00002045631, z: -0.00007633873}
+      rotation: {x: -0.000000014280923, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999999, z: 0.24999999}
+    - name: Medial bicipital groove.r
+      parentName: Brachial region.g
+      position: {x: 0.00044151852, y: -0.00004636705, z: -0.00007704193}
+      rotation: {x: -0.000000014280923, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999999, z: 0.24999999}
+    - name: Anterior region of arm.l
+      parentName: Brachial region.g
+      position: {x: 0.0013945493, y: 0.000006290373, z: -0.00008094839}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999999, z: -0.24999999}
+    - name: Lateral bicipital groove.l
+      parentName: Brachial region.g
+      position: {x: 0.0014698305, y: 0.00002045631, z: -0.00007633873}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999999, z: -0.24999999}
+    - name: Medial bicipital groove.l
+      parentName: Brachial region.g
+      position: {x: 0.0013243505, y: -0.00004636705, z: -0.00007704193}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999999, z: -0.24999999}
+    - name: Posterior region of arm.r
+      parentName: Brachial region.g
+      position: {x: 0.00037212725, y: 0.000028150951, z: 0.00007633755}
+      rotation: {x: -0.000000014280923, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999999, z: 0.24999999}
+    - name: Posterior region of arm.l
+      parentName: Brachial region.g
+      position: {x: 0.0013937418, y: 0.000028150951, z: 0.00007633755}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999999, z: -0.24999999}
+    - name: Regions of hand.g
+      parentName: Regions of upper limb.g
+      position: {x: -0.000011096746, y: -0.0007412335, z: -0.00017803411}
+      rotation: {x: -2.2204464e-14, y: -0, z: 0, w: 1}
+      scale: {x: 0.8, y: 0.79999983, z: 0.79999983}
+    - name: Regions of hand-line
+      parentName: Regions of hand.g
+      position: {x: 0, y: -2.834175e-10, z: -4.6566126e-11}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Palm.r
+      parentName: Regions of hand.g
+      position: {x: 0.00037479444, y: 0.000060178656, z: -0.000013003275}
+      rotation: {x: -0.000000014280923, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999999, z: 0.24999999}
+    - name: Palm.l
+      parentName: Regions of hand.g
+      position: {x: 0.0016989518, y: 0.000060178656, z: -0.000013003275}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999999, z: -0.24999999}
+    - name: Thenar eminence.t
+      parentName: Palm.l
+      position: {x: -0.00026947557, y: 0.00035615466, z: -0.0008147381}
+      rotation: {x: 1, y: 0, z: 0, w: 0.00000004371139}
+      scale: {x: -2, y: -2.0000005, z: -2.0000005}
+    - name: Thenar eminence-line
+      parentName: Thenar eminence.t
+      position: {x: 0, y: -2.1058405e-10, z: 0}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hypothenar eminence.t
+      parentName: Palm.l
+      position: {x: 0.00024909957, y: 0.00024428565, z: -0.00063833164}
+      rotation: {x: 1, y: 0, z: 0, w: 0.00000004371139}
+      scale: {x: -2, y: -2.0000005, z: -2.0000005}
+    - name: Hypothenar eminence-line
+      parentName: Hypothenar eminence.t
+      position: {x: 0, y: 7.55883e-11, z: 0}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Dorsum of hand.r
+      parentName: Regions of hand.g
+      position: {x: 0.0003603781, y: 0.00007573739, z: 0.000049488106}
+      rotation: {x: -0.000000014280923, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999999, z: 0.24999999}
+    - name: Dorsum of hand.l
+      parentName: Regions of hand.g
+      position: {x: 0.0017133682, y: 0.00007573739, z: 0.000049488106}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999999, z: -0.24999999}
+    - name: Regions of digits of hand.g
+      parentName: Regions of hand.g
+      position: {x: 0.0003350485, y: -0.00008651385, z: -0.0003037459}
+      rotation: {x: -4.736953e-15, y: -0, z: 0, w: 1}
+      scale: {x: 0.75, y: 0.7499998, z: 0.7499998}
+    - name: Regions of digits of hand-line
+      parentName: Regions of digits of hand.g
+      position: {x: -7.4505804e-11, y: 5.209237e-10, z: 3.7252902e-11}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Palmar surface of digits of hand.r
+      parentName: Regions of digits of hand.g
+      position: {x: -0.00000689961, y: 0.000028381375, z: 0.0003441441}
+      rotation: {x: -0.000000014280923, y: -0, z: 0, w: 1}
+      scale: {x: 0.3333333, y: 0.33333334, z: 0.33333334}
+    - name: Dorsal surfaces of digits of hand.r
+      parentName: Regions of digits of hand.g
+      position: {x: -0.00000689961, y: 0.000028381375, z: 0.0003441441}
+      rotation: {x: -0.000000014280923, y: -0, z: 0, w: 1}
+      scale: {x: 0.3333333, y: 0.33333334, z: 0.33333334}
+    - name: Nail plate.r
+      parentName: Dorsal surfaces of digits of hand.r
+      position: {x: -0.000068992675, y: -0.000116478666, z: -0.00018483214}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Peryonix.r
+      parentName: Nail plate.r
+      position: {x: 0.000017899572, y: 0.000010928636, z: 0.00004063204}
+      rotation: {x: 5.6843392e-14, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1.0000005, z: 1.0000005}
+    - name: Lateral border of nail.t
+      parentName: Nail plate.r
+      position: {x: 0.00012903869, y: -0.0003114371, z: -0.00007686198}
+      rotation: {x: 0.000000014280927, y: 0, z: 0, w: 1}
+      scale: {x: 0.24999999, y: 0.25000003, z: 0.25000003}
+    - name: Lateral border of nail-line
+      parentName: Lateral border of nail.t
+      position: {x: 0.0000000011920929, y: -0.0000000019117414, z: 2.9802322e-10}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Free border of nail.t
+      parentName: Nail plate.r
+      position: {x: 0.0000022438169, y: -0.000343626, z: -0.0001413396}
+      rotation: {x: 0.000000014280927, y: 0, z: 0, w: 1}
+      scale: {x: 0.24999999, y: 0.25000003, z: 0.25000003}
+    - name: Free border of nail-line
+      parentName: Free border of nail.t
+      position: {x: 0.0000000011920929, y: -0.0000000042612744, z: 2.9802322e-10}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hidden border of nail.t
+      parentName: Nail plate.r
+      position: {x: 0.00002818346, y: -0.0002745627, z: 0.000029356106}
+      rotation: {x: 0.000000014280927, y: 0, z: 0, w: 1}
+      scale: {x: 0.24999999, y: 0.25000003, z: 0.25000003}
+    - name: Hidden border of nail-line
+      parentName: Hidden border of nail.t
+      position: {x: 0.0000000011920929, y: -0.000000004353012, z: 2.9802322e-10}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Lunule of nail.t
+      parentName: Nail plate.r
+      position: {x: 0.000041686893, y: -0.00028476104, z: 0.000026270523}
+      rotation: {x: 0.000000014280927, y: 0, z: 0, w: 1}
+      scale: {x: 0.24999999, y: 0.25000003, z: 0.25000003}
+    - name: Lunule of nail-line
+      parentName: Lunule of nail.t
+      position: {x: 0.0000000011920929, y: -0.0000000019671684, z: 2.9802322e-10}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eponychium.t
+      parentName: Dorsal surfaces of digits of hand.r
+      position: {x: -0.000022989212, y: -0.0004073273, z: -0.00015354711}
+      rotation: {x: 0.000000014280927, y: 0, z: 0, w: 1}
+      scale: {x: 0.50000006, y: 0.50000006, z: 0.50000006}
+    - name: Eponychium-line
+      parentName: Eponychium.t
+      position: {x: 5.9604643e-10, y: 2.071612e-10, z: 0}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nail root.t
+      parentName: Dorsal surfaces of digits of hand.r
+      position: {x: -0.000022897422, y: -0.00042404758, z: -0.00016947638}
+      rotation: {x: 0.000000014280927, y: 0, z: 0, w: 1}
+      scale: {x: 0.5, y: 0.50000006, z: 0.50000006}
+    - name: Nail root-line
+      parentName: Nail root.t
+      position: {x: 5.9604643e-10, y: 2.1144168e-10, z: 0}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nail bed.t
+      parentName: Dorsal surfaces of digits of hand.r
+      position: {x: -0.00003155887, y: -0.00045472308, z: -0.00022731788}
+      rotation: {x: 0.000000014280927, y: 0, z: 0, w: 1}
+      scale: {x: 0.5, y: 0.50000006, z: 0.50000006}
+    - name: Nail bed-line
+      parentName: Nail bed.t
+      position: {x: 5.9604643e-10, y: 2.269847e-10, z: 1.4901161e-10}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nail wall.t
+      parentName: Dorsal surfaces of digits of hand.r
+      position: {x: 0.00003624767, y: -0.00047004744, z: -0.000242647}
+      rotation: {x: 0.000000014280927, y: 0, z: 0, w: 1}
+      scale: {x: 0.5, y: 0.50000006, z: 0.50000006}
+    - name: Nail wall-line
+      parentName: Nail wall.t
+      position: {x: 5.9604643e-10, y: 2.3110391e-10, z: 0}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nail matrix.t
+      parentName: Dorsal surfaces of digits of hand.r
+      position: {x: -0.000024876295, y: -0.00044002815, z: -0.0001882404}
+      rotation: {x: 0.000000014280927, y: 0, z: 0, w: 1}
+      scale: {x: 0.5, y: 0.50000006, z: 0.50000006}
+    - name: Nail matrix-line
+      parentName: Nail matrix.t
+      position: {x: 5.9604643e-10, y: -9.756089e-10, z: 0}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hyponichium.t
+      parentName: Dorsal surfaces of digits of hand.r
+      position: {x: -0.00002388686, y: -0.00048657227, z: -0.00014964401}
+      rotation: {x: 0.000000014280926, y: 0, z: 0, w: 1}
+      scale: {x: 0.5, y: 0.5000001, z: 0.50000006}
+    - name: Hyponichium-line
+      parentName: Hyponichium.t
+      position: {x: 5.9604643e-10, y: -9.859805e-10, z: 0}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Palmar surface of digits of hand.l
+      parentName: Regions of digits of hand.g
+      position: {x: 0.001878432, y: 0.000028381375, z: 0.0003441441}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.3333333, y: -0.33333334, z: -0.33333334}
+    - name: Dorsal surfaces of digits of hand.l
+      parentName: Regions of digits of hand.g
+      position: {x: 0.001878432, y: 0.000028381375, z: 0.0003441441}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.3333333, y: -0.33333334, z: -0.33333334}
+    - name: Nail plate.l
+      parentName: Dorsal surfaces of digits of hand.l
+      position: {x: -0.000068992675, y: -0.000116478666, z: -0.00018483214}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Peryonix.l
+      parentName: Nail plate.l
+      position: {x: 0.00001789987, y: 0.000010928636, z: 0.00004063226}
+      rotation: {x: -0.00000016292066, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cubital region.g
+      parentName: Regions of upper limb.g
+      position: {x: 0.00012001455, y: -0.00004850597, z: -0.000012617633}
+      rotation: {x: -2.2204464e-14, y: -0, z: 0, w: 1}
+      scale: {x: 0.8, y: 0.79999983, z: 0.79999983}
+    - name: Anterior region of elbow.r
+      parentName: Cubital region.g
+      position: {x: 0.00031812774, y: -0.000011058454, z: -0.00006184126}
+      rotation: {x: -0.000000014280923, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999999, z: 0.24999999}
+    - name: Anterior region of elbow.l
+      parentName: Cubital region.g
+      position: {x: 0.0014278404, y: -0.000011058454, z: -0.00006184126}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999999, z: -0.24999999}
+    - name: Cubital fossa.r
+      parentName: Cubital region.g
+      position: {x: 0.00032182308, y: 0.000034475026, z: -0.0000856597}
+      rotation: {x: -0.000000014280923, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999999, z: 0.24999999}
+    - name: Cubital fossa.l
+      parentName: Cubital region.g
+      position: {x: 0.0014241451, y: 0.000034475026, z: -0.0000856597}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999999, z: -0.24999999}
+    - name: Posterior region of elbow.r
+      parentName: Cubital region.g
+      position: {x: 0.00033029512, y: -0.000020439049, z: 0.00005539729}
+      rotation: {x: -0.000000014280923, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999999, z: 0.24999999}
+    - name: Posterior region of elbow.l
+      parentName: Cubital region.g
+      position: {x: 0.0014156731, y: -0.000020439049, z: 0.00005539729}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999999, z: -0.24999999}
+    - name: Cubital region-line
+      parentName: Cubital region.g
+      position: {x: 1.4901161e-10, y: -9.0724545e-10, z: 0}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Antebrachial region.g
+      parentName: Regions of upper limb.g
+      position: {x: 0.000045030563, y: -0.00033520325, z: -0.00008059892}
+      rotation: {x: -2.2204464e-14, y: -0, z: 0, w: 1}
+      scale: {x: 0.8, y: 0.79999983, z: 0.79999983}
+    - name: Posterior region of forearm.r
+      parentName: Antebrachial region.g
+      position: {x: 0.00035802787, y: -0.0000059335025, z: 0.000057408906}
+      rotation: {x: -0.000000014280923, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999999, z: 0.24999999}
+    - name: Lateral border of forearm.r
+      parentName: Antebrachial region.g
+      position: {x: 0.0002609288, y: 0.000025951264, z: -0.0000007106445}
+      rotation: {x: -0.000000014280923, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999999, z: 0.24999999}
+    - name: Medial border of forearm.r
+      parentName: Antebrachial region.g
+      position: {x: 0.00045718745, y: 0.000009147968, z: 0.000015118226}
+      rotation: {x: -0.000000014280923, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999999, z: 0.24999999}
+    - name: Anterior region of forearm.r
+      parentName: Antebrachial region.g
+      position: {x: 0.00036600544, y: 0.0000099434, z: -0.000044427372}
+      rotation: {x: -0.000000014280923, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999999, z: 0.24999999}
+    - name: Posterior region of forearm.l
+      parentName: Antebrachial region.g
+      position: {x: 0.0015754002, y: -0.0000059335025, z: 0.000057408906}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999999, z: -0.24999999}
+    - name: Lateral border of forearm.l
+      parentName: Antebrachial region.g
+      position: {x: 0.0016724991, y: 0.000025951264, z: -0.0000007106445}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999999, z: -0.24999999}
+    - name: Medial border of forearm.l
+      parentName: Antebrachial region.g
+      position: {x: 0.0014762406, y: 0.000009147968, z: 0.000015118226}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999999, z: -0.24999999}
+    - name: Anterior region of forearm.l
+      parentName: Antebrachial region.g
+      position: {x: 0.0015674225, y: 0.0000099434, z: -0.000044427372}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999999, z: -0.24999999}
+    - name: Antebrachial region-line
+      parentName: Antebrachial region.g
+      position: {x: 0, y: -1.5077002e-10, z: -3.4924596e-12}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Carpal region.g
+      parentName: Regions of upper limb.g
+      position: {x: 0.00006424181, y: -0.00057218387, z: -0.00015064883}
+      rotation: {x: -2.2204464e-14, y: -0, z: 0, w: 1}
+      scale: {x: 0.8, y: 0.79999983, z: 0.79999983}
+    - name: Anterior region of wrist.r
+      parentName: Carpal region.g
+      position: {x: 0.00028034477, y: -0.000007642792, z: -0.000019518346}
+      rotation: {x: -0.000000014280923, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999999, z: 0.24999999}
+    - name: Posterior region of wrist.r
+      parentName: Carpal region.g
+      position: {x: 0.00028425164, y: -0.000021860746, z: 0.00005015502}
+      rotation: {x: -0.000000014280923, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999999, z: 0.24999999}
+    - name: Radial foveola.r
+      parentName: Carpal region.g
+      position: {x: 0.00020317337, y: -0.000016349846, z: 0.000038986484}
+      rotation: {x: -0.000000014280923, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999999, z: 0.24999999}
+    - name: Anterior region of wrist.l
+      parentName: Carpal region.g
+      position: {x: 0.0016050552, y: -0.000007642792, z: -0.000019518346}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999999, z: -0.24999999}
+    - name: Posterior region of wrist.l
+      parentName: Carpal region.g
+      position: {x: 0.0016011482, y: -0.000021860746, z: 0.00005015502}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999999, z: -0.24999999}
+    - name: Radial foveola.l
+      parentName: Carpal region.g
+      position: {x: 0.0016822267, y: -0.000016349846, z: 0.000038986484}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999999, z: -0.24999999}
+    - name: Carpal region-line
+      parentName: Carpal region.g
+      position: {x: 7.4505804e-11, y: -1.3900524e-10, z: -4.6566128e-12}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Regions of lower limb.g
+      parentName: BodyRegions100(Clone)
+      position: {x: -0.0029059995, y: 0.00014373635, z: -0.005336638}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 5, y: 4.9999995, z: 4.9999995}
+    - name: Hip region.r
+      parentName: Regions of lower limb.g
+      position: {x: 0.0002446993, y: 0.0006371705, z: 0.0000014694011}
+      rotation: {x: -0.000000014280927, y: -0, z: 0, w: 1}
+      scale: {x: 0.2, y: 0.19999997, z: 0.19999997}
+    - name: Hip region.l
+      parentName: Regions of lower limb.g
+      position: {x: 0.0009177005, y: 0.0006371705, z: 0.0000014694011}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.2, y: -0.19999997, z: -0.19999997}
+    - name: Regions of lower limb-line
+      parentName: Regions of lower limb.g
+      position: {x: 0, y: 3.6866657e-10, z: 4.6566128e-12}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gluteal region.g
+      parentName: Regions of lower limb.g
+      position: {x: 0.00042442157, y: 0.000628087, z: 0.0004028678}
+      rotation: {x: -2.8752735e-15, y: 1, z: 0.00000006717942, w: 0.00000004371139}
+      scale: {x: 0.8000002, y: 0.8000002, z: 0.8000002}
+    - name: Gluteal region-line
+      parentName: Gluteal region.g
+      position: {x: 1.8626451e-11, y: 2.2150069e-10, z: -3.7252902e-11}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Gluteal fold.r
+      parentName: Gluteal region.g
+      position: {x: -0.00007934919, y: -0.00019794892, z: 0.00029424587}
+      rotation: {x: 3.6219773e-15, y: 1, z: 0.00000008146035, w: -0.00000004371139}
+      scale: {x: 0.24999994, y: 0.24999997, z: 0.24999997}
+    - name: Gluteal region.r
+      parentName: Gluteal region.g
+      position: {x: 0.000015491432, y: 0.00008405898, z: 0.0002818818}
+      rotation: {x: 3.6219773e-15, y: 1, z: 0.00000008146035, w: -0.00000004371139}
+      scale: {x: 0.24999994, y: 0.24999997, z: 0.24999997}
+    - name: Gluteal fold.l
+      parentName: Gluteal region.g
+      position: {x: -0.00031259662, y: -0.00019794892, z: 0.00029424587}
+      rotation: {x: 3.5607452e-15, y: -0.00000008146035, z: 1, w: -0.00000004371139}
+      scale: {x: -0.24999994, y: -0.24999997, z: -0.24999997}
+    - name: Gluteal region.l
+      parentName: Gluteal region.g
+      position: {x: -0.00040743727, y: 0.00008405898, z: 0.0002818818}
+      rotation: {x: 3.5607452e-15, y: -0.00000008146035, z: 1, w: -0.00000004371139}
+      scale: {x: -0.24999994, y: -0.24999997, z: -0.24999997}
+    - name: Femoral region.g
+      parentName: Regions of lower limb.g
+      position: {x: 0.000033899174, y: 0.00020922169, z: 0.0000074633326}
+      rotation: {x: -2.2204464e-14, y: -0, z: 0, w: 1}
+      scale: {x: 0.8, y: 0.79999983, z: 0.79999983}
+    - name: Femoral region-line
+      parentName: Femoral region.g
+      position: {x: -7.4505804e-11, y: -6.081518e-12, z: -4.6566128e-12}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Posterior region of thigh.r
+      parentName: Femoral region.g
+      position: {x: 0.00046687553, y: -0.0000128019055, z: 0.00010247919}
+      rotation: {x: -0.000000014280923, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999999, z: 0.24999999}
+    - name: Posterior region of thigh.l
+      parentName: Femoral region.g
+      position: {x: 0.00090137613, y: -0.0000128019055, z: 0.00010247919}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999999, z: -0.24999999}
+    - name: Anterior femoral region.g
+      parentName: Femoral region.g
+      position: {x: 0.00045110902, y: 0.00006544878, z: -0.00041721849}
+      rotation: {x: -9.473905e-15, y: -0, z: 0, w: 1}
+      scale: {x: 0.75, y: 0.7499999, z: 0.7499999}
+    - name: Anterior femoral region-line
+      parentName: Anterior femoral region.g
+      position: {x: 0, y: -8.237757e-11, z: -3.7252902e-11}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Anterior region of thigh.r
+      parentName: Anterior femoral region.g
+      position: {x: -0.000052336156, y: 0.00023026468, z: 0.00037628002}
+      rotation: {x: -0.000000014280931, y: -0, z: 0, w: 1}
+      scale: {x: 0.3333333, y: 0.33333328, z: 0.33333328}
+    - name: Pelvis.t
+      parentName: Anterior region of thigh.r
+      position: {x: -0.000021731183, y: 0.0017301484, z: -0.001189923}
+      rotation: {x: 0.000000014280923, y: 0, z: 0, w: 1}
+      scale: {x: 2.9999998, y: 3.0000002, z: 3.0000002}
+    - name: Pelvis-line
+      parentName: Pelvis.t
+      position: {x: 0, y: 6.936972e-11, z: 7.4505804e-11}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Femoral triangle.r
+      parentName: Anterior femoral region.g
+      position: {x: 0.000085941814, y: 0.00057277264, z: 0.00026795725}
+      rotation: {x: -0.000000014280931, y: -0, z: 0, w: 1}
+      scale: {x: 0.3333333, y: 0.33333328, z: 0.33333328}
+    - name: Anterior region of thigh.l
+      parentName: Anterior femoral region.g
+      position: {x: 0.00067371427, y: 0.00023026468, z: 0.00037628002}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.3333333, y: -0.33333328, z: -0.33333328}
+    - name: Femoral triangle.l
+      parentName: Anterior femoral region.g
+      position: {x: 0.0005354363, y: 0.00057277264, z: 0.00026795725}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.3333333, y: -0.33333328, z: -0.33333328}
+    - name: Knee region.g
+      parentName: Regions of lower limb.g
+      position: {x: 0.00015697531, y: -0.00018157877, z: 0.000021048205}
+      rotation: {x: -1.7763572e-14, y: -0, z: 0, w: 1}
+      scale: {x: 0.8, y: 0.79999983, z: 0.7999998}
+    - name: Knee region-line
+      parentName: Knee region.g
+      position: {x: 3.7252902e-11, y: -8.286889e-11, z: -9.3132255e-12}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Anterior region of knee.r
+      parentName: Knee region.g
+      position: {x: 0.00030621208, y: -0.0000045719707, z: -0.000089051246}
+      rotation: {x: -0.000000014280917, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.25, z: 0.25000003}
+    - name: Anterior region of knee.l
+      parentName: Knee region.g
+      position: {x: 0.0007543496, y: -0.0000045719707, z: -0.000089051246}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.25, z: -0.25000003}
+    - name: Posterior region of knee.g
+      parentName: Knee region.g
+      position: {x: 0.0003051394, y: 0.00000029975118, z: 0.00038579453}
+      rotation: {x: -2.8752735e-15, y: 1, z: 0.00000006717942, w: 0.00000004371139}
+      scale: {x: 0.7500002, y: 0.7500001, z: 0.7500002}
+    - name: Posterior region of knee-line
+      parentName: Posterior region of knee.g
+      position: {x: 0, y: 2.2927554e-10, z: -7.4505804e-11}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Popliteal fossa.r
+      parentName: Posterior region of knee.g
+      position: {x: -0.000019232406, y: 0.00013896692, z: 0.0003616886}
+      rotation: {x: 3.6219773e-15, y: 1, z: 0.00000008146034, w: -0.00000004371139}
+      scale: {x: 0.33333325, y: 0.33333328, z: 0.33333328}
+    - name: Posterior region of knee.r
+      parentName: Posterior region of knee.g
+      position: {x: -0.000028642788, y: 0.000019279894, z: 0.00039899154}
+      rotation: {x: 3.6219773e-15, y: 1, z: 0.00000008146034, w: -0.00000004371139}
+      scale: {x: 0.33333325, y: 0.33333328, z: 0.33333328}
+    - name: Popliteal fossa.l
+      parentName: Posterior region of knee.g
+      position: {x: -0.0005811446, y: 0.00013896692, z: 0.0003616886}
+      rotation: {x: 3.560745e-15, y: -0.00000008146034, z: 1, w: -0.00000004371139}
+      scale: {x: -0.33333325, y: -0.33333328, z: -0.33333328}
+    - name: Posterior region of knee.l
+      parentName: Posterior region of knee.g
+      position: {x: -0.0005717342, y: 0.000019279894, z: 0.00039899154}
+      rotation: {x: 3.560745e-15, y: -0.00000008146034, z: 1, w: -0.00000004371139}
+      scale: {x: -0.33333325, y: -0.33333328, z: -0.33333328}
+    - name: Talocrural region.g
+      parentName: Regions of lower limb.g
+      position: {x: 0.00015959027, y: -0.00089143094, z: 0.00008196675}
+      rotation: {x: -2.2204464e-14, y: -0, z: 0, w: 1}
+      scale: {x: 0.8, y: 0.79999983, z: 0.79999983}
+    - name: Lateral malleola*.r
+      parentName: Talocrural region.g
+      position: {x: 0.0002495327, y: -0.000040704475, z: 0.0000072246416}
+      rotation: {x: -0.000000014280923, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999999, z: 0.24999999}
+    - name: Lateral retromalleolar region.r
+      parentName: Talocrural region.g
+      position: {x: 0.00034854925, y: -0.000016715776, z: 0.00004870468}
+      rotation: {x: -0.000000014280923, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999999, z: 0.24999999}
+    - name: Medial malleola*.r
+      parentName: Talocrural region.g
+      position: {x: 0.00041456483, y: -0.000020424774, z: -0.00003694401}
+      rotation: {x: -0.000000014280923, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999999, z: 0.24999999}
+    - name: Lateral malleola*.l
+      parentName: Talocrural region.g
+      position: {x: 0.0008044914, y: -0.000040704475, z: 0.0000072246416}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999999, z: -0.24999999}
+    - name: Lateral retromalleolar region.l
+      parentName: Talocrural region.g
+      position: {x: 0.0007054748, y: -0.000016715776, z: 0.00004870468}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999999, z: -0.24999999}
+    - name: Medial malleola*.l
+      parentName: Talocrural region.g
+      position: {x: 0.00063945923, y: -0.000020424774, z: -0.00003694401}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999999, z: -0.24999999}
+    - name: Medial retromalleolar region.r
+      parentName: Talocrural region.g
+      position: {x: 0.00034854925, y: -0.000016715776, z: 0.00004870468}
+      rotation: {x: -0.000000014280923, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999999, z: 0.24999999}
+    - name: Medial retromalleolar region.l
+      parentName: Talocrural region.g
+      position: {x: 0.0007054748, y: -0.000016715776, z: 0.00004870468}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999999, z: -0.24999999}
+    - name: Anterior region of ankle.r
+      parentName: Talocrural region.g
+      position: {x: 0.00031696586, y: 0.000036584966, z: -0.00006506878}
+      rotation: {x: -0.000000014280923, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999999, z: 0.24999999}
+    - name: Anterior region of ankle.l
+      parentName: Talocrural region.g
+      position: {x: 0.00073705823, y: 0.000036584966, z: -0.00006506878}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999999, z: -0.24999999}
+    - name: Posterior region of anckle.g
+      parentName: Talocrural region.g
+      position: {x: 0.00035827592, y: -0.0000008462922, z: 0.00027293066}
+      rotation: {x: -2.8752739e-15, y: 1, z: 0.00000006717943, w: 0.00000004371139}
+      scale: {x: 0.5000001, y: 0.5, z: 0.5}
+    - name: Posterior region of anckle-line
+      parentName: Posterior region of anckle.g
+      position: {x: 7.4505804e-11, y: -3.8481805e-11, z: 7.4505804e-11}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Regions of foot.g
+      parentName: Regions of lower limb.g
+      position: {x: 0.00017752379, y: -0.0009771464, z: -0.000017371896}
+      rotation: {x: -2.2204464e-14, y: -0, z: 0, w: 1}
+      scale: {x: 0.8, y: 0.79999983, z: 0.79999983}
+    - name: Regions of foot-line
+      parentName: Regions of foot.g
+      position: {x: 0, y: 4.4655626e-11, z: 0}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Lateral part of longitudinal arch of foot.r
+      parentName: Regions of foot.g
+      position: {x: 0.00020402532, y: -0.00009521155, z: 0.000004707805}
+      rotation: {x: -0.000000014280918, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999996, z: 0.24999996}
+    - name: Medial part of longitudinal arch of foot.r
+      parentName: Regions of foot.g
+      position: {x: 0.00034038714, y: -0.00008490925, z: -0.000059528913}
+      rotation: {x: -0.000000014280918, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999996, z: 0.24999996}
+    - name: Lateral part of longitudinal arch of foot.l
+      parentName: Regions of foot.g
+      position: {x: 0.00080516515, y: -0.00009521155, z: 0.000004707805}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999996, z: -0.24999996}
+    - name: Medial part of longitudinal arch of foot.l
+      parentName: Regions of foot.g
+      position: {x: 0.0006688033, y: -0.00008490925, z: -0.000059528913}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999996, z: -0.24999996}
+    - name: Sole.r
+      parentName: Regions of foot.g
+      position: {x: 0.0002696896, y: -0.000094102725, z: -0.000027867112}
+      rotation: {x: -0.000000014280918, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999996, z: 0.24999996}
+    - name: Sole.l
+      parentName: Regions of foot.g
+      position: {x: 0.0007395008, y: -0.000094102725, z: -0.000027867112}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999996, z: -0.24999996}
+    - name: Proximal transverse arch of foot.r
+      parentName: Regions of foot.g
+      position: {x: 0.0003093093, y: -0.00008694699, z: 0.00009797638}
+      rotation: {x: -0.000000014280918, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999996, z: 0.24999996}
+    - name: Distal transverse arch of foot.r
+      parentName: Regions of foot.g
+      position: {x: 0.00021756814, y: -0.00010615821, z: -0.0001594335}
+      rotation: {x: -0.000000014280918, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999996, z: 0.24999996}
+    - name: Proximal transverse arch of foot.l
+      parentName: Regions of foot.g
+      position: {x: 0.0006998812, y: -0.00008694699, z: 0.00009797638}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999996, z: -0.24999996}
+    - name: Distal transverse arch of foot.l
+      parentName: Regions of foot.g
+      position: {x: 0.0007916222, y: -0.00010615821, z: -0.0001594335}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999996, z: -0.24999996}
+    - name: Hallucial eminence.r
+      parentName: Regions of foot.g
+      position: {x: 0.00034530455, y: -0.00008134108, z: -0.00020015266}
+      rotation: {x: -0.000000014280918, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999996, z: 0.24999996}
+    - name: Metatarsal region.r
+      parentName: Regions of foot.g
+      position: {x: 0.00025208012, y: -0.0000038078924, z: -0.00012804123}
+      rotation: {x: -0.000000014280918, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999996, z: 0.24999996}
+    - name: Hallucial eminence.l
+      parentName: Regions of foot.g
+      position: {x: 0.0006638859, y: -0.00008134108, z: -0.00020015266}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999996, z: -0.24999996}
+    - name: Metatarsal region.l
+      parentName: Regions of foot.g
+      position: {x: 0.0007571103, y: -0.0000038078924, z: -0.00012804123}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999996, z: -0.24999996}
+    - name: Dorsal surfaces of digits of foot.l
+      parentName: Regions of foot.g
+      position: {x: 0.0005045952, y: -0.00011272637, z: -0.000014219397}
+      rotation: {x: -0.7071067, y: -0, z: 0, w: 0.7071068}
+      scale: {x: -0.25, y: -0.24999996, z: -0.24999996}
+    - name: Dorsal surfaces of digits of foot.r
+      parentName: Regions of foot.g
+      position: {x: 0.0005045952, y: -0.00011272637, z: -0.000014219397}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.25, y: 0.24999996, z: 0.24999996}
+    - name: Nail plate (foot).r
+      parentName: Dorsal surfaces of digits of foot.r
+      position: {x: -0.0011650731, y: -0.0011957306, z: -0.00020534811}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Peryonix (foot).r
+      parentName: Nail plate (foot).r
+      position: {x: -0.0000140335405, y: 0.000014705026, z: 0.000046192334}
+      rotation: {x: 7.105428e-15, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Nail plate (foot).l
+      parentName: Dorsal surfaces of digits of foot.r
+      position: {x: 0.0011650731, y: -0.0011957306, z: -0.00020534811}
+      rotation: {x: 0.7071067, y: 0, z: 0, w: 0.7071068}
+      scale: {x: -1, y: -0.99999994, z: -0.99999994}
+    - name: Peryonix (foot).l
+      parentName: Nail plate (foot).l
+      position: {x: -0.000014033094, y: 0.000014705026, z: 0.000046193003}
+      rotation: {x: -0.00000016292067, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Plantar surfaces of digits of foot.l
+      parentName: Regions of foot.g
+      position: {x: 0.0005045952, y: -0.00011272637, z: -0.000014219397}
+      rotation: {x: -0.7071067, y: -0, z: 0, w: 0.7071068}
+      scale: {x: -0.25, y: -0.24999996, z: -0.24999996}
+    - name: Plantar surfaces of digits of foot.r
+      parentName: Regions of foot.g
+      position: {x: 0.0005045952, y: -0.00011272637, z: -0.000014219397}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.25, y: 0.24999996, z: 0.24999996}
+    - name: Heel region.r
+      parentName: Regions of foot.g
+      position: {x: 0.00032488443, y: -0.000038798986, z: 0.00019404672}
+      rotation: {x: -0.000000014280918, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999996, z: 0.24999996}
+    - name: Dorsum of foot.r
+      parentName: Regions of foot.g
+      position: {x: 0.0002807189, y: 0.000060039747, z: -0.000003615379}
+      rotation: {x: -0.000000014280918, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999996, z: 0.24999996}
+    - name: Heel region.l
+      parentName: Regions of foot.g
+      position: {x: 0.000684306, y: -0.000038798986, z: 0.00019404672}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999996, z: -0.24999996}
+    - name: Dorsum of foot.l
+      parentName: Regions of foot.g
+      position: {x: 0.00072847155, y: 0.000060039747, z: -0.000003615379}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999996, z: -0.24999996}
+    - name: Lateral border of foot.l
+      parentName: Regions of foot.g
+      position: {x: 0.00082158274, y: -0.00005234626, z: 0.000022391658}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999996, z: -0.24999996}
+    - name: Lateral border of foot.r
+      parentName: Regions of foot.g
+      position: {x: 0.0001876077, y: -0.00005234626, z: 0.000022391658}
+      rotation: {x: -0.000000014280918, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999996, z: 0.24999996}
+    - name: Medial border of foot.l
+      parentName: Regions of foot.g
+      position: {x: 0.0006264084, y: -0.00001048263, z: -0.000026330252}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999996, z: -0.24999996}
+    - name: Medial border of foot.r
+      parentName: Regions of foot.g
+      position: {x: 0.0003827821, y: -0.00001048263, z: -0.000026330252}
+      rotation: {x: -0.000000014280918, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999996, z: 0.24999996}
+    - name: Regions of digits of foot.g
+      parentName: Regions of foot.g
+      position: {x: 0.00023148808, y: -0.00007642112, z: -0.0005086087}
+      rotation: {x: -7.105429e-15, y: -0, z: 0, w: 1}
+      scale: {x: 0.5, y: 0.49999988, z: 0.49999988}
+    - name: Regions of digits of foot-line
+      parentName: Regions of digits of foot.g
+      position: {x: 0, y: -1.1503731e-11, z: 7.4505804e-11}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Leg region.g
+      parentName: Regions of lower limb.g
+      position: {x: 0.00013802107, y: -0.0005824144, z: 0.00007876089}
+      rotation: {x: -2.2204464e-14, y: -0, z: 0, w: 1}
+      scale: {x: 0.8, y: 0.79999983, z: 0.79999983}
+    - name: Posterior region of leg.r
+      parentName: Leg region.g
+      position: {x: 0.00033634782, y: 0.000039510287, z: 0.0000668665}
+      rotation: {x: -0.000000014280923, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999999, z: 0.24999999}
+    - name: Posterior region of leg.l
+      parentName: Leg region.g
+      position: {x: 0.0007715994, y: 0.000039510287, z: 0.0000668665}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999999, z: -0.24999999}
+    - name: Anterior region of leg.r
+      parentName: Leg region.g
+      position: {x: 0.00032518758, y: 0.000021493763, z: -0.000086363245}
+      rotation: {x: -0.000000014280923, y: -0, z: 0, w: 1}
+      scale: {x: 0.25, y: 0.24999999, z: 0.24999999}
+    - name: Anterior region of leg.l
+      parentName: Leg region.g
+      position: {x: 0.0007827596, y: 0.000021493763, z: -0.000086363245}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.25, y: -0.24999999, z: -0.24999999}
+    - name: Leg region-line
+      parentName: Leg region.g
+      position: {x: 0, y: 1.9197035e-11, z: -9.3132255e-12}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Regions of thorax.g
+      parentName: BodyRegions100(Clone)
+      position: {x: 0.0000052408873, y: -0.0021683658, z: -0.013295567}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 5, y: 4.9999995, z: 4.9999995}
+    - name: Lateral region of thorax.r
+      parentName: Regions of thorax.g
+      position: {x: -0.00029492303, y: -0.00019465938, z: 0.00043220405}
+      rotation: {x: -0.000000014280927, y: -0, z: 0, w: 1}
+      scale: {x: 0.2, y: 0.19999997, z: 0.19999997}
+    - name: Lateral region of thorax.l
+      parentName: Regions of thorax.g
+      position: {x: 0.00029282665, y: -0.00019465938, z: 0.00043220405}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.2, y: -0.19999997, z: -0.19999997}
+    - name: Regions of thorax-line
+      parentName: Regions of thorax.g
+      position: {x: 7.2759575e-14, y: 3.5629105e-10, z: -3.7252902e-11}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Anterior region of thorax.g
+      parentName: Regions of thorax.g
+      position: {x: -0.00000078589, y: -0.000032516065, z: 0.000025174133}
+      rotation: {x: -2.3684764e-14, y: -0, z: 0, w: 1}
+      scale: {x: 0.6, y: 0.59999985, z: 0.59999985}
+    - name: Inframammary region.r
+      parentName: Anterior region of thorax.g
+      position: {x: -0.000162396, y: -0.0003214031, z: 0.00026784267}
+      rotation: {x: -0.000000014280942, y: -0, z: 0, w: 1}
+      scale: {x: 0.33333328, y: 0.33333328, z: 0.33333328}
+    - name: Mammary region.r
+      parentName: Anterior region of thorax.g
+      position: {x: -0.00036421887, y: -0.000109098204, z: 0.00030940678}
+      rotation: {x: -0.000000014280942, y: -0, z: 0, w: 1}
+      scale: {x: 0.33333328, y: 0.33333328, z: 0.33333328}
+    - name: Pectoral region.r
+      parentName: Anterior region of thorax.g
+      position: {x: -0.00028808563, y: 0.000010175448, z: 0.00037727825}
+      rotation: {x: -0.000000014280942, y: -0, z: 0, w: 1}
+      scale: {x: 0.33333328, y: 0.33333328, z: 0.33333328}
+    - name: Thorax.t
+      parentName: Pectoral region.r
+      position: {x: 0.00059609546, y: 0.00015218758, z: -0.00055192254}
+      rotation: {x: 0.000000014280927, y: 0, z: 0, w: 1}
+      scale: {x: 2.9999998, y: 3.0000005, z: 3.0000005}
+    - name: Thorax-line
+      parentName: Thorax.t
+      position: {x: 0, y: 0.0000000015556197, z: -3.7252902e-11}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: Inframammary region.l
+      parentName: Anterior region of thorax.g
+      position: {x: 0.0001615217, y: -0.0003214031, z: 0.00026784267}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.33333328, y: -0.33333328, z: -0.33333328}
+    - name: Mammary region.l
+      parentName: Anterior region of thorax.g
+      position: {x: 0.00036334453, y: -0.000109098204, z: 0.00030940678}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.33333328, y: -0.33333328, z: -0.33333328}
+    - name: Pectoral region.l
+      parentName: Anterior region of thorax.g
+      position: {x: 0.00028721135, y: 0.000010175448, z: 0.00037727825}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.33333328, y: -0.33333328, z: -0.33333328}
+    - name: Infraclavicular fossa.r
+      parentName: Anterior region of thorax.g
+      position: {x: -0.00028868282, y: 0.00031685055, z: 0.0005780501}
+      rotation: {x: -0.000000014280942, y: -0, z: 0, w: 1}
+      scale: {x: 0.33333328, y: 0.33333328, z: 0.33333328}
+    - name: Presternal region.r
+      parentName: Anterior region of thorax.g
+      position: {x: -0.000036257185, y: 0.000018825873, z: 0.00035430363}
+      rotation: {x: -0.000000014280942, y: -0, z: 0, w: 1}
+      scale: {x: 0.33333328, y: 0.33333328, z: 0.33333328}
+    - name: Deltopectoral triangle.r
+      parentName: Anterior region of thorax.g
+      position: {x: -0.00046900584, y: 0.00027051568, z: 0.0006279398}
+      rotation: {x: -0.000000014280942, y: -0, z: 0, w: 1}
+      scale: {x: 0.33333328, y: 0.33333328, z: 0.33333328}
+    - name: Infraclavicular fossa.l
+      parentName: Anterior region of thorax.g
+      position: {x: 0.00028780854, y: 0.00031685055, z: 0.0005780501}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.33333328, y: -0.33333328, z: -0.33333328}
+    - name: Presternal region.l
+      parentName: Anterior region of thorax.g
+      position: {x: 0.00003538289, y: 0.000018825873, z: 0.00035430363}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.33333328, y: -0.33333328, z: -0.33333328}
+    - name: Deltopectoral triangle.l
+      parentName: Anterior region of thorax.g
+      position: {x: 0.0004681315, y: 0.00027051568, z: 0.0006279398}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.33333328, y: -0.33333328, z: -0.33333328}
+    - name: Anterior region of thorax-line
+      parentName: Anterior region of thorax.g
+      position: {x: -3.6379787e-14, y: 3.8949902e-10, z: 7.4505804e-11}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Hairs.g
+      parentName: BodyRegions100(Clone)
+      position: {x: 0.0015940323, y: 0.0002193428, z: -0.016594155}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 5, y: 5.0000005, z: 5.0000005}
+    - name: Hair
+      parentName: Hairs.g
+      position: {x: -0.00032166785, y: -0.0000049257364, z: 0.000021266718}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.2, y: 0.19999996, z: 0.19999996}
+    - name: Pubic hair
+      parentName: Hairs.g
+      position: {x: -0.0003199675, y: -0.0016137867, z: -0.00021021222}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.2, y: 0.19999996, z: 0.19999996}
+    - name: Eyebrow(hair).r
+      parentName: Hairs.g
+      position: {x: -0.0003916767, y: -0.000093782226, z: -0.00021198897}
+      rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 0.2, y: 0.19999996, z: 0.19999996}
+    - name: Eyebrow(hair).l
+      parentName: Hairs.g
+      position: {x: -0.0002459362, y: -0.000093782226, z: -0.00021198897}
+      rotation: {x: -0.7071067, y: -0, z: 0, w: 0.7071068}
+      scale: {x: -0.2, y: -0.19999996, z: -0.19999996}
+    - name: Eyelashes.l
+      parentName: Hairs.g
+      position: {x: -0.00037933726, y: -0.0001322317, z: -0.00020129688}
+      rotation: {x: -0.000000014280917, y: -0, z: 0, w: 1}
+      scale: {x: 0.2, y: 0.19999996, z: 0.19999996}
+    - name: Eyelashes.r
+      parentName: Hairs.g
+      position: {x: -0.0002582757, y: -0.0001322317, z: -0.00020129688}
+      rotation: {x: 1, y: 0, z: 0, w: -0.00000004371139}
+      scale: {x: -0.2, y: -0.19999996, z: -0.19999996}
+    - name: Hairs-line
+      parentName: Hairs.g
+      position: {x: 0, y: -0.0000000011979869, z: -2.3283063e-11}
+      rotation: {x: 0.7071081, y: 0, z: 0, w: 0.7071055}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
